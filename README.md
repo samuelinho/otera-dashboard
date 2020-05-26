@@ -1,5 +1,5 @@
 # OTERA-dashboard
-Otera-dashboard is a proof of concept of a dashboard made for self use. As it was conceived, it exists with a minimal extension of code written.
+Otera-dashboard (or as a later meaning Optimal templates elementarily representing anchors) is a proof of concept of a dashboard made for self use. As it was conceived, it exists with a minimal extension of code written.
 It's main target were to provide a list of links to my homeserver located services and apps. 
 After testing some great alternatives in the "market" like Heimdall, Homer or some others up in docker containers I found that they were either too much for my needs or required more effort to personalize them than i was willing to use.
 So I decided to make my own simplistic dashboard. It's not a full tool for production enviroment but a good base or easy tool to make some welcome page to a server.
