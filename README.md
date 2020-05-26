@@ -4,6 +4,7 @@ It's main target were to provide a list of links to my homeserver located servic
 After testing some great alternatives in the "market" like Heimdall, Homer or some others up in docker containers I found that they were either too much for my needs or required more effort to personalize them than i was willing to use.
 So I decided to make my own simplistic dashboard. It's not a full tool for a production enviroment but a good base or easy tool to make some welcome page to a server.
 Design is still improvable but maybe some day.
+Demo: https://samuelinho.github.io/otera-dashboard/index.html
 
 # Highlights:
 - **No backend nor database**
