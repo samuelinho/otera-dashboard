@@ -1,0 +1,21 @@
+{
+  "nome": "OTERA",
+  "items": [
+    { "tipo": "item", "nome": "AGYO", "descricion": "Testing item", "icona": "external/icono-agyo.png", "ligazon": "https://www.wwf.es/", "cor": "#03071E" },
+    { "tipo": "item", "nome": "EBISU", "descricion": "Testing item", "icona": "external/icono-ebisu.png", "ligazon": "https://www.wwf.es/", "cor": "#370617" },
+    { "tipo": "item", "nome": "INARI", "descricion": "Testing item", "icona": "external/icono-inari.png", "ligazon": "https://www.wwf.es/", "cor": "#6A040F" },
+    { "tipo": "item", "nome": "JIZOU", "descricion": "Testing item", "icona": "external/icono-jizou.png", "ligazon": "https://www.wwf.es/", "cor": "#9D0208" },
+    { "tipo": "item", "nome": "RAIJIN", "descricion": "Testing item", "icona": "external/icono-raijin.png", "ligazon": "https://www.wwf.es/", "cor": "#D00000" },
+    { "tipo": "hide", "nome": "AKIBA", "descricion": "Testing item", "icona": "external/icono-akiba.png", "ligazon": "https://www.wwf.es/", "cor": "#DC2F02" },
+    { "tipo": "item", "nome": "ITAKO", "descricion": "Testing item", "icona": "external/icono-itako.png", "ligazon": "https://www.wwf.es/", "cor": "#E85D04" },
+    { "tipo": "item", "nome": "KOJIKI", "descricion": "Testing item", "icona": "external/icono-kojiki.png", "ligazon": "https://www.wwf.es/", "cor": "#F48C06" },
+    { "tipo": "item", "nome": "SHITENNO", "descricion": "Testing item", "icona": "external/icono-shitenno.png", "ligazon": "https://www.wwf.es/", "cor": "#FAA307" },
+    { "tipo": "item", "nome": "IZANAMI", "descricion": "Testing item", "icona": "external/camara.png", "ligazon": "https://www.wwf.es/", "cor": "#FFBA08" },
+    { "tipo": "cat", "nome": "MEDIA", "descricion": "Testing item", "icona": "external/icono-inari-sonarr.png", "cor": "#52b788", "items": [
+      { "tipo": "item", "nome": "JACKETT", "descricion": "Testing item", "icona": "external/icono-inari-jackett.png", "ligazon": "https://www.wwf.es/", "cor": "#40916c" },
+      { "tipo": "item", "nome": "RADARR", "descricion": "Testing item", "icona": "external/icono-inari-radarr.png", "ligazon": "https://www.wwf.es/", "cor": "#2d6a4f" },
+      { "tipo": "item", "nome": "SONARR", "descricion": "Testing item", "icona": "external/icono-inari-sonarr.png", "ligazon": "https://www.wwf.es/", "cor": "#1b4332" },
+      { "tipo": "item", "nome": "BAZARR", "descricion": "Testing item", "icona": "external/icono-inari.png", "ligazon": "https://www.wwf.es/", "cor": "#081c15" }
+    ]}
+  ]
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Otera</title>
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1369&q=80'); background-size: cover; background-position: center">
+<div id="alerta" class="alert alert-danger">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>Error!</strong> Ruta no definida.
+</div>
+<div class="container-fluid p-5 stack">
+    <div class="row p-3">
+        <div class="col-12 text-center">
+            <span class="header">OTERA</span>
+        </div>
+    </div>
+    <div class="oco"></div>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5">
+        <div class="col mb-4" onclick="openLink('RAIJIN')">
+            <div class="card text-white bg-danger">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-raijin.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">RAIJIN</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------->
+
+        <div class="col mb-4" onclick="openLink('IZANAMI')">
+            <div class="card text-white bg-warning">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/camara.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">IZANAMI</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('KOJIKI')">
+            <div class="card text-white bg-primary">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-kojiki.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">KOJIKI</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('SHITENNO')">
+            <div class="card text-white bg-info">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-shitenno.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">SHITENNO</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('AGYO')">
+            <div class="card text-white bg-dark">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-agyo.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">AGYO</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('JIZOU')">
+            <div class="card text-white bg-warning">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-jizou.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">JIZOU</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('ITAKO')">
+            <div class="card text-white bg-info">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-itako.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">ITAKO</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('EBISU')">
+            <div class="card text-white bg-danger">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-ebisu.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">EBISU</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="openLink('INARI')">
+            <div class="card text-white bg-primary">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-inari.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">INARI</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4" onclick="$('#media_modal').modal()">
+            <div class="card text-white bg-success">
+                <div class="row no-gutters">
+                    <div class="col-3">
+                        <img class="img-fluid text-center" src="external/icono-inari-sonarr.png">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body">
+                            <span class="card-title nome">MEDIA</span>
+                            <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------->
+    </div>
+</div>
+
+<div id="media_modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content modal-transparent">
+            <div class="modal-body">
+                <div class="row  row-cols-1 row-cols-md-4">
+                    <div class="col mb-4" onclick="openLink('INARI-RADARR')">
+                        <div class="card text-white bg-success">
+                            <div class="row no-gutters">
+                                <div class="col-3">
+                                    <img class="img-fluid text-center" src="external/icono-inari-radarr.png">
+                                </div>
+                                <div class="col-9">
+                                    <div class="card-body">
+                                        <span class="card-title nome">RADARR</span>
+                                        <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4" onclick="openLink('INARI-SONARR')">
+                        <div class="card text-white bg-dark">
+                            <div class="row no-gutters">
+                                <div class="col-3">
+                                    <img class="img-fluid text-center" src="external/icono-inari-sonarr.png">
+                                </div>
+                                <div class="col-9">
+                                    <div class="card-body">
+                                        <span class="card-title nome">SONARR</span>
+                                        <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4" onclick="openLink('INARI-JACKETT')">
+                        <div class="card text-white bg-dark">
+                            <div class="row no-gutters">
+                                <div class="col-3">
+                                    <img class="img-fluid text-center" src="external/icono-inari-jackett.png">
+                                </div>
+                                <div class="col-9">
+                                    <div class="card-body">
+                                        <span class="card-title nome">JACKETT</span>
+                                        <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4" onclick="openLink('INARI-BAZARR')">
+                        <div class="card text-white bg-dark">
+                            <div class="row no-gutters">
+                                <div class="col-3">
+                                    <img class="img-fluid text-center" src="external/icono-inari.png">
+                                </div>
+                                <div class="col-9">
+                                    <div class="card-body">
+                                        <span class="card-title nome">BAZARR</span>
+                                        <p class="card-text descripcion">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/funciones.js"></script>
+</html>
