@@ -24,7 +24,7 @@ Design is still improvable but maybe some day.
   At first, when you enter the dashboard, js loads the json file and two html templates and mix them to form the links structure. If JSON change, just reload page and the new structure is loaded.
 Made it with writing some scripted json generator in mind so it could have automatic updates of links based on a reverse proxy configuration or on docker exposed ports.
 
-#JSON structure
+# JSON structure
 Json uses the following structure (although better take the example file as a reference)
 NOME: name of the app,item,category
 ITEMS: list of items of main scree or if it's inside a category, the items of that category
