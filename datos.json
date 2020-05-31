@@ -1,21 +1,21 @@
 {
   "nome": "OTERA",
   "items": [
-    { "tipo": "item", "nome": "AGYO", "descricion": "Testing item", "icona": "external/icono-agyo.png", "ligazon": "https://www.wwf.es/", "cor": "#03071E" },
-    { "tipo": "item", "nome": "EBISU", "descricion": "Testing item", "icona": "external/icono-ebisu.png", "ligazon": "https://www.wwf.es/", "cor": "#370617" },
-    { "tipo": "item", "nome": "INARI", "descricion": "Testing item", "icona": "external/icono-inari.png", "ligazon": "https://www.wwf.es/", "cor": "#6A040F" },
-    { "tipo": "item", "nome": "JIZOU", "descricion": "Testing item", "icona": "external/icono-jizou.png", "ligazon": "https://www.wwf.es/", "cor": "#9D0208" },
-    { "tipo": "item", "nome": "RAIJIN", "descricion": "Testing item", "icona": "external/icono-raijin.png", "ligazon": "https://www.wwf.es/", "cor": "#D00000" },
-    { "tipo": "hide", "nome": "AKIBA", "descricion": "Testing item", "icona": "external/icono-akiba.png", "ligazon": "https://www.wwf.es/", "cor": "#DC2F02" },
-    { "tipo": "item", "nome": "ITAKO", "descricion": "Testing item", "icona": "external/icono-itako.png", "ligazon": "https://www.wwf.es/", "cor": "#E85D04" },
-    { "tipo": "item", "nome": "KOJIKI", "descricion": "Testing item", "icona": "external/icono-kojiki.png", "ligazon": "https://www.wwf.es/", "cor": "#F48C06" },
-    { "tipo": "item", "nome": "SHITENNO", "descricion": "Testing item", "icona": "external/icono-shitenno.png", "ligazon": "https://www.wwf.es/", "cor": "#FAA307" },
-    { "tipo": "item", "nome": "IZANAMI", "descricion": "Testing item", "icona": "external/camara.png", "ligazon": "https://www.wwf.es/", "cor": "#FFBA08" },
-    { "tipo": "cat", "nome": "MEDIA", "descricion": "Testing item", "icona": "external/icono-inari-sonarr.png", "cor": "#52b788", "items": [
-      { "tipo": "item", "nome": "JACKETT", "descricion": "Testing item", "icona": "external/icono-inari-jackett.png", "ligazon": "https://www.wwf.es/", "cor": "#40916c" },
-      { "tipo": "item", "nome": "RADARR", "descricion": "Testing item", "icona": "external/icono-inari-radarr.png", "ligazon": "https://www.wwf.es/", "cor": "#2d6a4f" },
-      { "tipo": "item", "nome": "SONARR", "descricion": "Testing item", "icona": "external/icono-inari-sonarr.png", "ligazon": "https://www.wwf.es/", "cor": "#1b4332" },
-      { "tipo": "item", "nome": "BAZARR", "descricion": "Testing item", "icona": "external/icono-inari.png", "ligazon": "https://www.wwf.es/", "cor": "#081c15" }
+    { "tipo": "item", "nome": "AGYO", "descricion": "Duplicati backups", "icona": "external/icono-agyo.png", "ligazon": "http://amaterasu:8200", "cor": "#03071E" },
+    { "tipo": "item", "nome": "EBISU", "descricion": "Nextcloud", "icona": "external/icono-ebisu.png", "ligazon": "https://amaterasu:443", "cor": "#370617" },
+    { "tipo": "item", "nome": "INARI", "descricion": "Transmission torrent client", "icona": "external/icono-inari.png", "ligazon": "http://amaterasu:9091", "cor": "#6A040F" },
+    { "tipo": "item", "nome": "JIZOU", "descricion": "Portainer manager", "icona": "external/icono-jizou.png", "ligazon": "http://amaterasu:8082", "cor": "#9D0208" },
+    { "tipo": "item", "nome": "RAIJIN", "descricion": "Jellyfin media player", "icona": "external/icono-raijin.png", "ligazon": "http://amaterasu:8092", "cor": "#D00000" },
+    { "tipo": "hide", "nome": "AKIBA", "descricion": "GIT repo", "icona": "external/icono-akiba.png", "ligazon": "http://amaterasu:3000", "cor": "#DC2F02" },
+    { "tipo": "item", "nome": "ITAKO", "descricion": "Filerun file explorer", "icona": "external/icono-itako.png", "ligazon": "http://amaterasu:8089", "cor": "#E85D04" },
+    { "tipo": "item", "nome": "KOJIKI", "descricion": "Komga comics", "icona": "external/icono-kojiki.png", "ligazon": "http://amaterasu:8081", "cor": "#F48C06" },
+    { "tipo": "item", "nome": "SHITENNO", "descricion": "Grafana dashboard", "icona": "external/icono-shitenno.png", "ligazon": "http://amaterasu:3000", "cor": "#FAA307" },
+    { "tipo": "item", "nome": "IZANAMI", "descricion": "Photoprism photo manager", "icona": "external/camara.png", "ligazon": "http://amaterasu:2342", "cor": "#FFBA08" },
+    { "tipo": "cat", "nome": "MEDIA", "descricion": "Gestores de medios", "icona": "external/icono-inari-sonarr.png", "cor": "#52b788", "items": [
+      { "tipo": "item", "nome": "INARI-JACKETT", "descricion": "Torrent indexer", "icona": "external/icono-inari-jackett.png", "ligazon": "http://amaterasu:9117", "cor": "#40916c" },
+      { "tipo": "item", "nome": "INARI-RADARR", "descricion": "Buscador de películas", "icona": "external/icono-inari-radarr.png", "ligazon": "http://amaterasu:7878", "cor": "#2d6a4f" },
+      { "tipo": "item", "nome": "INARI-SONARR", "descricion": "Buscador de series", "icona": "external/icono-inari-sonarr.png", "ligazon": "http://amaterasu:8989", "cor": "#1b4332" },
+      { "tipo": "item", "nome": "INARI-BAZARR", "descricion": "Buscador de subtítulos", "icona": "external/icono-inari.png", "ligazon": "http://amaterasu:6767", "cor": "#081c15" }
     ]}
   ]
 }
